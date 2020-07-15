@@ -12,6 +12,7 @@ class TestDev2Controller extends AbstractController
      */
     public function index()
     {
+        // AJOUT DE COMMENTAIRE
         return $this->render('test_dev2/index.html.twig', [
             'controller_name' => 'TestDev2Controller',
         ]);
